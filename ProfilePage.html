@@ -32,7 +32,7 @@
         display:inline-block;
         background: url("pagelines-brands.svg") no-repeat; 
         width:1em;
-	    height:1em;
+	      height:1em;
         background-size: contain;
      
       }
@@ -42,14 +42,14 @@
         min-width: 100%;
       }
      
-      .profile {
+      .title {
 	      width:		100%;
 	      margin:		0;
 	      padding:	0;
 	      position:	relative; /* 相対位置指定 */
       }
 
-      .profile img {
+      .title img {
 	      width:		100px;
       }
       h3 {
@@ -61,10 +61,13 @@
 	      color:		rgb(0, 0, 0);
 	      position:	absolute; /* 絶対位置指定 */
         font-family: 'Playfair Display', serif;
-}
+      }
 
-      .PutRight {
+      .profilePic {
             float:right;
+            margin-right: 100px;
+            border-radius: 100%; 
+            
         }
       .PutLeft{
         float:left;
@@ -129,10 +132,14 @@
        <image src="b_simple_4_1L.png" class="myline"/>
        <!--Profile-->
        <br/>
-       <div class="profile">
+       <div class="title">
          <img src="dot.PNG"/>
          <h3>Profile</h3>
        </div>
+       <img src="prifileImg.PNG" class="profilePic"/>
+       <h4>のり</h4>
+       hogehogehogehogehoge
+       <p><button type="button" class="btn btn-secondary ">ReadMore</button></p>
      
   </body>
 </html>
