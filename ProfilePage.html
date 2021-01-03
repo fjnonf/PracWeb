@@ -25,6 +25,13 @@
         margin-bottom: 40px;
         font-family: 'Playfair Display', serif;
       }
+
+      .navbar-brand::before{
+        background: url("pagelines-brands.svg") ; 
+        background-position: no-repeat;
+        background-size: contain;
+     
+      }
      
 
     </style>
@@ -36,15 +43,18 @@
   </head>
   <body>
     <!-- #site-navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light  bg-info">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
         <!--Navbar-brand for your company, product, or project name-->
-        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand " href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <!--左側-->
+          <ul class="navbar-nav mr-auto"></ul>
+          <!--右側-->
+          <ul class="navbar-nav ">
             <li class="nav-item">
               <a class="nav-link " href="#">Profile</a>
             </li>
@@ -61,6 +71,7 @@
                 <a class="nav-link " href="#">Link</a>
             </li>
           </ul>
+          </div>
        
         </div>
       </nav>
