@@ -42,9 +42,36 @@
         min-width: 100%;
       }
      
+      .profile {
+	      width:		100%;
+	      margin:		0;
+	      padding:	0;
+	      position:	relative; /* 相対位置指定 */
+      }
+
+      .profile img {
+	      width:		100px;
+      }
+      h3 {
+	      width:		100%;
+	      text-align:	left;
+	      bottom:		10px;
+	      margin:		50px;
+	      padding:	0;
+	      color:		rgb(0, 0, 0);
+	      position:	absolute; /* 絶対位置指定 */
+        font-family: 'Playfair Display', serif;
+}
+
       .PutRight {
             float:right;
         }
+      .PutLeft{
+        float:left;
+      }
+      .PutClear{
+        float:none;
+      }
 
     </style>
 
@@ -100,5 +127,12 @@
        </div>
        <!-- #site-top image -->
        <image src="b_simple_4_1L.png" class="myline"/>
+       <!--Profile-->
+       <br/>
+       <div class="profile">
+         <img src="dot.PNG"/>
+         <h3>Profile</h3>
+       </div>
+     
   </body>
 </html>
