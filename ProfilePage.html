@@ -11,8 +11,9 @@
       background-position: no-repeat center center;
       background-size: cover;
       height: 50vh;
-      min-height: 300px;
-      font-family :Quicksand, sans-serif;/*Google Font*/
+      min-width: 100%;
+      /*min-height: 300px;*/
+      
       
       }
       .jumbotron-container {
@@ -35,7 +36,15 @@
         background-size: contain;
      
       }
+      .myline{
+         /* 画像を常に天地左右の中央に配置 */
+        background-position: center center;
+        min-width: 100%;
+      }
      
+      .PutRight {
+            float:right;
+        }
 
     </style>
 
@@ -81,17 +90,14 @@
       <!-- #site-navigation -->
 
       <!-- #site-top image -->
-      
-
         <div class="jumbotron jumbotron-fluid">
           <div class="container-fluid jumbotron-container">
-            <h2 class="site-name">Cemal Can Dinça</h1>
-            <p><button type="button" class="btn btn-secondary">Profile</button></p>
+            <h2 class="site-name ">Cemal Can Dinça</h2><br/>
+            <p><button type="button" class="btn btn-secondary ">Profile</button></p>
 
-          </div>
-
-    
+            </div>
        </div>
-
+       <!-- #site-top image -->
+       <image src="b_simple_4_1L.png" class="myline"/>
   </body>
 </html>
