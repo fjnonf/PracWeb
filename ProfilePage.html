@@ -27,8 +27,11 @@
       }
 
       .navbar-brand::before{
-        background: url("pagelines-brands.svg") ; 
-        background-position: no-repeat;
+        content:"";
+        display:inline-block;
+        background: url("pagelines-brands.svg") no-repeat; 
+        width:1em;
+	    height:1em;
         background-size: contain;
      
       }
@@ -43,9 +46,9 @@
   </head>
   <body>
     <!-- #site-navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd; opacity:0.8" >
         <!--Navbar-brand for your company, product, or project name-->
-        <a class="navbar-brand " href="#">Home</a>
+        <a class="navbar-brand" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -60,7 +63,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">About VRoid Crothes</a>
+                <a class="nav-link disabled" href="#">VRoid Crothes</a>
             </li>
 
             <li class="nav-item">
@@ -82,7 +85,7 @@
 
         <div class="jumbotron jumbotron-fluid">
           <div class="container-fluid jumbotron-container">
-            <h1 class="site-name">Cemal Can Dinça</h1>
+            <h2 class="site-name">Cemal Can Dinça</h1>
             <p><button type="button" class="btn btn-secondary">Profile</button></p>
 
           </div>
